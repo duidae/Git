@@ -1,7 +1,7 @@
 # Git
 
 ## TODO
-1. 增加
+1. 增加commit message template
 
 ## Git/Github
 * $ git config --global user.name "duidae"
