@@ -10,6 +10,8 @@
 * pull request https://gitbook.tw/chapters/github/pull-request.html
 * check out specific branch
   * $ git clone -b mark/newArch-testProtoBuf https://github.com/duidae/carta.git CARTAvis
+* show current branch
+  * $ git branch
 * remove directory
   * $ git rm -r one-of-the-directories
   * $ git commit -m "Remove directory"
