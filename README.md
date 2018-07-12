@@ -22,6 +22,10 @@
   * $ git log -p -2
   * $ git log --stat  //這比較好用
   * $ git log --graph --oneline --decorate
+* git branch
+  * https://zlargon.gitbooks.io/git-tutorial/content/branch/create_delete.html
+  * $ git branch [branch name]
+  * $ git branch //list branch
 * 如何寫git commit message
   * https://blog.louie.lu/2017/03/21/%E5%A6%82%E4%BD%95%E5%AF%AB%E4%B8%80%E5%80%8B-git-commit-message/
   * https://blog.wu-boy.com/2015/09/how-to-write-git-commit-message/
