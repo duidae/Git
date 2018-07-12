@@ -16,8 +16,9 @@
   * $ git rm -r one-of-the-directories
   * $ git commit -m "Remove directory"
   * $ git push
-* git history
+* git log
   * [git history](https://git-scm.com/book/zh-tw/v1/Git-%E5%9F%BA%E7%A4%8E-%E6%AA%A2%E8%A6%96%E6%8F%90%E4%BA%A4%E7%9A%84%E6%AD%B7%E5%8F%B2%E8%A8%98%E9%8C%84)
+  * https://github.com/geeeeeeeeek/git-recipes/wiki/5.3-Git-log-%E9%AB%98%E7%BA%A7%E7%94%A8%E6%B3%95
   * $ git log -p -2
   * $ git log --stat  //這比較好用
   * $ git log --graph --oneline --decorate
