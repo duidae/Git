@@ -27,6 +27,7 @@
   * $ git log --graph --oneline --decorate
 * git diff
   * $ git diff [filename]
+  * $ git diff HEAD^^ HEAD main.c //看main.c 現在與前兩版的差異
 * git branch
   * https://zlargon.gitbooks.io/git-tutorial/content/branch/create_delete.html
   * $ git branch [branch name]
