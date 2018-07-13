@@ -22,6 +22,8 @@
   * $ git log -p -2
   * $ git log --stat  //這比較好用
   * $ git log --graph --oneline --decorate
+* git diff
+  * $ git diff [filename]
 * git branch
   * https://zlargon.gitbooks.io/git-tutorial/content/branch/create_delete.html
   * $ git branch [branch name]
