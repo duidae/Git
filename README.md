@@ -2,9 +2,6 @@
 
 ## TODO
 1. 增加commit message template
-2. create branch
-3. commit branch
-4. merger branch
 
 ## Git/Github
 * $ git config --global user.name "duidae"
