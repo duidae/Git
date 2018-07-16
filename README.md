@@ -21,6 +21,7 @@
   * $ git reset --hard ORIG_HEAD // 取消merge
   * $ git reset HEAD <file> // 取消已經add的file
   * $ git checkout -- <file> // 重新checkout某個檔案, 檔案修爛可以重來
+ 
 ```
 $ git checkout master // switch to branch master
 $ git pull origin master // Now pull the latest changes in master
@@ -30,6 +31,7 @@ $ git push origin master // Push the changes to master
 $ git branch -D testBranch // delete local branch
 $ git push origin --delete testBranch  // delete remote branch
 ```
+
 * remove directory
   * $ git rm -r one-of-the-directories
   * $ git commit -m "Remove directory"
@@ -51,3 +53,5 @@ $ git push origin --delete testBranch  // delete remote branch
     * https://chris.beams.io/posts/git-commit/
     * Pro git https://git-scm.com/book/en/v2
     * git message template https://robots.thoughtbot.com/better-commit-messages-with-a-gitmessage-template
+* git submodule
+  * https://blog.wu-boy.com/2011/09/introduction-to-git-submodule/comment-page-1/
