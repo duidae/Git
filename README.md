@@ -18,6 +18,9 @@
   * $ git checkout [branch name] // 切換branch
   * $ git branch -D [branch name] // delete local branch
   * $ git push origin --delete [branch name]  // delete remote branch
+  * $ git reset --hard ORIG_HEAD // 取消merge
+  * $ git reset HEAD <file> // 取消已經add的file
+  * $ git checkout -- <file> // 重新checkout某個檔案, 檔案修爛可以重來
 ```
 $ git checkout master // switch to branch master
 $ git pull origin master // Now pull the latest changes in master
@@ -40,9 +43,11 @@ $ git push origin --delete testBranch  // delete remote branch
 * git diff
   * $ git diff [filename]
   * $ git diff HEAD^^ HEAD main.c //看main.c 現在與前兩版的差異
-* 如何寫git commit message
-  * https://blog.louie.lu/2017/03/21/%E5%A6%82%E4%BD%95%E5%AF%AB%E4%B8%80%E5%80%8B-git-commit-message/
-  * https://blog.wu-boy.com/2015/09/how-to-write-git-commit-message/
-  * https://chris.beams.io/posts/git-commit/
-  * Pro git https://git-scm.com/book/en/v2
-  * git message template https://robots.thoughtbot.com/better-commit-messages-with-a-gitmessage-template
+* git commit
+  * $ git commit --amend // 修正commit message
+  * 如何寫git commit message
+    * https://blog.louie.lu/2017/03/21/%E5%A6%82%E4%BD%95%E5%AF%AB%E4%B8%80%E5%80%8B-git-commit-message/
+    * https://blog.wu-boy.com/2015/09/how-to-write-git-commit-message/
+    * https://chris.beams.io/posts/git-commit/
+    * Pro git https://git-scm.com/book/en/v2
+    * git message template https://robots.thoughtbot.com/better-commit-messages-with-a-gitmessage-template
