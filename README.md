@@ -16,6 +16,7 @@
   * $ git branch // show branch
   * $ git branch [branch name]  // create a branch
   * $ git checkout [branch name] // 切換branch
+  * $ git branch -D [branch name] // delete branch
 * remove directory
   * $ git rm -r one-of-the-directories
   * $ git commit -m "Remove directory"
