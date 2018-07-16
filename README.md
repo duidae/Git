@@ -13,8 +13,12 @@
 * pull request https://gitbook.tw/chapters/github/pull-request.html
 * check out specific branch
   * $ git clone -b mark/newArch-testProtoBuf https://github.com/duidae/carta.git CARTAvis
-* show current branch
-  * $ git branch
+* branch
+  * 這篇很清楚: https://gogojimmy.net/2012/01/21/how-to-use-git-2-basic-usage-and-worflow/
+  * $ git branch // show branch
+  * $ git branch [branch name]  // create a branch
+  * $ git checkout [branch name] // 切換branch
+  
 * remove directory
   * $ git rm -r one-of-the-directories
   * $ git commit -m "Remove directory"
