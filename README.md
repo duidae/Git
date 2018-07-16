@@ -14,11 +14,11 @@
 * check out specific branch
   * $ git clone -b mark/newArch-testProtoBuf https://github.com/duidae/carta.git CARTAvis
 * branch
+  * https://zlargon.gitbooks.io/git-tutorial/content/branch/create_delete.html
   * 這篇很清楚: https://gogojimmy.net/2012/01/21/how-to-use-git-2-basic-usage-and-worflow/
   * $ git branch // show branch
   * $ git branch [branch name]  // create a branch
   * $ git checkout [branch name] // 切換branch
-  
 * remove directory
   * $ git rm -r one-of-the-directories
   * $ git commit -m "Remove directory"
@@ -32,10 +32,6 @@
 * git diff
   * $ git diff [filename]
   * $ git diff HEAD^^ HEAD main.c //看main.c 現在與前兩版的差異
-* git branch
-  * https://zlargon.gitbooks.io/git-tutorial/content/branch/create_delete.html
-  * $ git branch [branch name]
-  * $ git branch //list branch
 * 如何寫git commit message
   * https://blog.louie.lu/2017/03/21/%E5%A6%82%E4%BD%95%E5%AF%AB%E4%B8%80%E5%80%8B-git-commit-message/
   * https://blog.wu-boy.com/2015/09/how-to-write-git-commit-message/
