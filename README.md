@@ -18,6 +18,15 @@
   * $ git checkout [branch name] // 切換branch
   * $ git branch -D [branch name] // delete local branch
   * $ git push origin --delete [branch name]  // delete remote branch
+```
+$ git checkout master // switch to branch master
+$ git pull origin master // Now pull the latest changes in master
+$ git merge testBranch // Merge with the testBranch
+$ git push origin master // Push the changes to master
+
+$ git branch -D testBranch // delete local branch
+$ git push origin --delete testBranch  // delete remote branch
+```
 * remove directory
   * $ git rm -r one-of-the-directories
   * $ git commit -m "Remove directory"
