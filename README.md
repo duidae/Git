@@ -53,5 +53,7 @@ $ git push origin --delete testBranch  // delete remote branch
     * https://chris.beams.io/posts/git-commit/
     * Pro git https://git-scm.com/book/en/v2
     * git message template https://robots.thoughtbot.com/better-commit-messages-with-a-gitmessage-template
+* remote repository
+  * $ git remote get-url origin //show出這個repo是從哪fetch來的
 * git submodule
   * https://blog.wu-boy.com/2011/09/introduction-to-git-submodule/comment-page-1/
