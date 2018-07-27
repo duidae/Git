@@ -57,3 +57,5 @@ $ git push origin --delete testBranch  // delete remote branch
   * $ git remote get-url origin //show出這個repo是從哪fetch來的
 * submodule
   * https://blog.wu-boy.com/2011/09/introduction-to-git-submodule/comment-page-1/
+* undo a merge in github
+  * https://stackoverflow.com/questions/42860234/how-to-undo-a-merge-in-github
