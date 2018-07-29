@@ -58,7 +58,13 @@ $ git push origin --delete testBranch  // delete remote branch
 * submodule
   * https://blog.wu-boy.com/2011/09/introduction-to-git-submodule/comment-page-1/
 * undo a merge in github
-  * git revert:
-    * https://github.com/geeeeeeeeek/git-recipes/wiki/5.2-%E4%BB%A3%E7%A0%81%E5%9B%9E%E6%BB%9A%EF%BC%9AReset%E3%80%81Checkout%E3%80%81Revert-%E7%9A%84%E9%80%89%E6%8B%A9
+* https://gitbook.tw/chapters/rewrite-history/reset-revert-and-rebase.html
+  * Reset	把目前的狀態設定成某個指定的 Commit 的狀態，通常適用於尚未推出去的 Commit。
+  * Rebase	不管是新增、修改、刪除 Commit 都相當方便，用來整理、編輯還沒有推出去的 Commit 相當方便，但通常也只適用於尚未推出去的 Commit。
+  * Revert	新增一個 Commit 來反轉（或說取消）另一個 Commit 的內容，原本的 Commit 依舊還是會保留在歷史紀錄中。雖然會因此而增加 Commit 數，但通常比較適用於已經推出去的 Commit，或是不允許使用 Reset 或 Rebase 之修改歷史紀錄的指令的場合。
+* revert
+  * $ git revert HEAD
+  * $ git push
+  * https://github.com/geeeeeeeeek/git-recipes/wiki/5.2-%E4%BB%A3%E7%A0%81%E5%9B%9E%E6%BB%9A%EF%BC%9AReset%E3%80%81Checkout%E3%80%81Revert-%E7%9A%84%E9%80%89%E6%8B%A9
   * $ git reset --hard master^
   * https://stackoverflow.com/questions/42860234/how-to-undo-a-merge-in-github
