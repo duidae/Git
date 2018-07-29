@@ -58,5 +58,7 @@ $ git push origin --delete testBranch  // delete remote branch
 * submodule
   * https://blog.wu-boy.com/2011/09/introduction-to-git-submodule/comment-page-1/
 * undo a merge in github
+  * git revert:
+    * https://github.com/geeeeeeeeek/git-recipes/wiki/5.2-%E4%BB%A3%E7%A0%81%E5%9B%9E%E6%BB%9A%EF%BC%9AReset%E3%80%81Checkout%E3%80%81Revert-%E7%9A%84%E9%80%89%E6%8B%A9
   * $ git reset --hard master^
   * https://stackoverflow.com/questions/42860234/how-to-undo-a-merge-in-github
