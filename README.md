@@ -80,3 +80,8 @@ $ git push origin --delete testBranch  // delete remote branch
   * git clone 會下載remote所有branch並在local產生一個對應remote master的locat master, 但因 $ git branch只會顯示local branch, 所以才只會看到一個master而已, $ git branch -a即可看到所有的branch
   * 如何在local也產生一個和remote一樣的branch以供開發呢？
     * $ git branch branchone origin/branchone
+* origin, master, HEAD 有什麼差別
+  * master 这个很好理解，它代表本地的某个分支名。
+  * origin master 代表着两个概念，前面的 origin 代表远程名，后面的 master 代表远程分支名。
+  * origin/master 只代表一个概念，即远程分支名，是从远程拉取代码后在本地建立的一份拷贝（因此也有人把它叫作本地分支）。
+  * https://blog.twofei.com/695/
