@@ -76,3 +76,7 @@ $ git push origin --delete testBranch  // delete remote branch
   * 4.点击switching the base.这时github将反过来比较yourfork/original，这时你将看到original相对你fork时的所有commit;
   * 5.点击create a pull request for this comparison，这时将会反过来向你的repo提交一个pull request;
   * 6.这时你作为你自己fork的repo的owner，你就可以点击confirm the merge，大笔一挥，所有的改动都被你一网打尽了@！
+* git clone 後為何local只看得到 "master"
+  * git clone 會下載remote所有branch並在local產生一個對應remote master的locat master, 但因 $ git branch只會顯示local branch, 所以才只會看到一個master而已, $ git branch -a即可看到所有的branch
+  * 如何在local也產生一個和remote一樣的branch以供開發呢？
+    * $ git branch branchone origin/branchone
