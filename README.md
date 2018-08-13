@@ -87,3 +87,5 @@ $ git push origin --delete testBranch  // delete remote branch
   * origin master 代表着两个概念，前面的 origin 代表远程名，后面的 master 代表远程分支名。
   * origin/master 只代表一个概念，即远程分支名，是从远程拉取代码后在本地建立的一份拷贝（因此也有人把它叫作本地分支）。
   * https://blog.twofei.com/695/
+* submodule
+  * https://git-scm.com/book/zh-tw/v1/Git-%E5%B7%A5%E5%85%B7-%E5%AD%90%E6%A8%A1%E7%B5%84-Submodules
