@@ -71,6 +71,7 @@ $ git push origin --delete testBranch  // delete remote branch
   * https://stackoverflow.com/questions/42860234/how-to-undo-a-merge-in-github
 * 把local已經存在的repo commit到remote
   * https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/
+  * New一個reop,裡面有教如何一步一步做
 * fork出來的repo與原始repo同步
   * 1.打开你的github fork repo;
   * 2.点击Pull request;
