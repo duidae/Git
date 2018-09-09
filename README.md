@@ -90,3 +90,6 @@ $ git push origin --delete testBranch  // delete remote branch
   * https://blog.twofei.com/695/
 * submodule
   * https://git-scm.com/book/zh-tw/v1/Git-%E5%B7%A5%E5%85%B7-%E5%AD%90%E6%A8%A1%E7%B5%84-Submodules
+* 在branch中update master
+  * $ git rebase master
+  * https://gogojimmy.net/2012/01/21/how-to-use-git-2-basic-usage-and-worflow/
