@@ -93,3 +93,5 @@ $ git push origin --delete testBranch  // delete remote branch
 * 在branch中update master
   * $ git rebase master
   * https://gogojimmy.net/2012/01/21/how-to-use-git-2-basic-usage-and-worflow/
+* push local branch to remote
+  * git push --set-upstream origin jason/Update_installation_guide
