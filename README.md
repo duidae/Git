@@ -97,3 +97,6 @@ $ git push origin --delete testBranch  // delete remote branch
   * git push --set-upstream origin jason/Update_installation_guide
 * resolve conflict
   * https://gitbook.tw/chapters/branch/fix-conflict.html
+* git stash
+  * $ git stash
+  * $ git stash pop
