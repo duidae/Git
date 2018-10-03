@@ -56,8 +56,6 @@ $ git push origin --delete testBranch  // delete remote branch
 * remote repository
   * $ git remote -v
   * $ git remote get-url origin //show出這個repo是從哪fetch來的
-* submodule
-  * https://blog.wu-boy.com/2011/09/introduction-to-git-submodule/comment-page-1/
 * undo a merge in github
   * https://gitbook.tw/chapters/rewrite-history/reset-revert-and-rebase.html
     * Reset	把目前的狀態設定成某個指定的 Commit 的狀態，通常適用於尚未推出去的 Commit。
@@ -88,8 +86,6 @@ $ git push origin --delete testBranch  // delete remote branch
   * origin master 代表着两个概念，前面的 origin 代表远程名，后面的 master 代表远程分支名。
   * origin/master 只代表一个概念，即远程分支名，是从远程拉取代码后在本地建立的一份拷贝（因此也有人把它叫作本地分支）。
   * https://blog.twofei.com/695/
-* submodule
-  * https://git-scm.com/book/zh-tw/v1/Git-%E5%B7%A5%E5%85%B7-%E5%AD%90%E6%A8%A1%E7%B5%84-Submodules
 * 在branch中update master
   * $ git rebase master
   * https://gogojimmy.net/2012/01/21/how-to-use-git-2-basic-usage-and-worflow/
@@ -100,3 +96,17 @@ $ git push origin --delete testBranch  // delete remote branch
 * git stash
   * $ git stash
   * $ git stash pop
+* git submodule
+  * 新增submodule
+    * $ git submodule add https://github.com/CARTAvis/New-casacore.git casacore
+    * $ git commit -m "Add casacore submodule"
+    * https://blog.wu-boy.com/2011/09/introduction-to-git-submodule/comment-page-1/
+  * 移除submodule
+    * Delete the relevant section from the .gitmodules file.
+    * $ git add .gitmodules
+    * Delete the relevant section from .git/config.
+    * Run git rm --cached path_to_submodule (no trailing slash).
+    * Run rm -rf .git/modules/path_to_submodule (no trailing slash).
+    * $ git commit -m "Removed submodule "
+    * Delete the now untracked submodule files rm -rf path_to_submodule
+    * https://gist.github.com/myusuf3/7f645819ded92bda6677
