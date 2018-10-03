@@ -112,4 +112,4 @@ $ git push origin --delete testBranch  // delete remote branch
     * https://gist.github.com/myusuf3/7f645819ded92bda6677
 * git reset
   * git log --oneline # 看hash code
-  * $ git reset --hard [hashcode]
+  * $ git reset --hard 5458bae7c
