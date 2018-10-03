@@ -110,3 +110,6 @@ $ git push origin --delete testBranch  // delete remote branch
     * $ git commit -m "Removed submodule "
     * Delete the now untracked submodule files rm -rf path_to_submodule
     * https://gist.github.com/myusuf3/7f645819ded92bda6677
+* git reset
+  * git log --oneline # 看hash code
+  * $ git reset --hard *hashcode
