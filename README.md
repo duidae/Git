@@ -113,3 +113,5 @@ $ git push origin --delete testBranch  // delete remote branch
 * git reset
   * git log --oneline # 看hash code
   * $ git reset --hard 5458bae7c
+* rename branch
+  * git branch -m [new name]
